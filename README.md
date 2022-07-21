@@ -1,2 +1,6 @@
 # yt-playlist-length-calculator
-<a href =https://calm-temple-63268.herokuapp.com/>yt-playlist-length-calculator</a>
+Displays total length of a youtube playlist<br>
+<br>
+## <a href =https://calm-temple-63268.herokuapp.com/>Live</a>
+### API
+<a href=https://developers.google.com/youtube/v3/>youtube_api_v3</a>
