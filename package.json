@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npm run uibuild && node app.js",
+    "start": "node app.js",
     "dev": "nodemon app.js",
     "uibuild": "cd yt-playlist-length-calculator && npm install && npm run build && cd ..",
     "push" : "npm run uibuild && git add . && git commit -m 'UI Build' && git push"
