@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "uibuild": "cd yt-playlist-length-calculator && npm install && npm run build && cd ..",
+    "push" : "npm run uibuild && git add . && git commit -m 'UI Build' && git push"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",

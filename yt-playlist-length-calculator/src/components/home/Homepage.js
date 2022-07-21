@@ -12,7 +12,7 @@ function Homepage() {
     const searchParam = new URLSearchParams(url.search);
     const playlistId = searchParam.get('list');
     console.log(playlistId);  
-    await axios.get(`http://localhost:3001/getId/${playlistId}`)
+    await axios.get(`${window.location.href}getId/${playlistId}`)
     .then(async res => await setDetails(res.data))
   }
 
